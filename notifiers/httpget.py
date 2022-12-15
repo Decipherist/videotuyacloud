@@ -2,8 +2,7 @@ import logging
 import urllib.error
 import urllib.parse
 import urllib.request
-
-import util
+import util.TolerantHTTPErrorProcessor
 from notifier import *
 
 
